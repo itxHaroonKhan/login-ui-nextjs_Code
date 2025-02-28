@@ -39,7 +39,7 @@ const Login = () => {
           {/* Don't have an account? */}
           <p className="text-center text-yellow-400 mt-4">
           Not a member? Join now!{" "}
-            <Link href="/Login" className="text-yellow-500 hover:underline">
+            <Link href="/SignUp" className="text-yellow-500 hover:underline">
               Sign Up
             </Link>
           </p>
