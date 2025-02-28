@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import React from "react";
 import { FaEnvelope, FaLock } from "react-icons/fa";
@@ -7,7 +6,7 @@ const Login = () => {
   return (
     <form className="flex justify-center items-center min-h-screen bg-gradient-to-r from-gray-900 to-gray-800">
       <div className="w-full max-w-sm bg-gray-900 p-8 rounded-2xl shadow-2xl border border-yellow-500">
-        <h2 className="text-3xl font-bold text-center  text-white mb-6">
+        <h2 className="text-3xl font-bold text-center text-yellow-500 mb-6">
           Login
         </h2>
 
@@ -38,8 +37,8 @@ const Login = () => {
           </button>
 
           {/* Don't have an account? */}
-          <p className="text-center  text-white  mt-4">
-            Not a member? Join now!{" "}
+          <p className="text-center text-yellow-400 mt-4">
+          Not a member? Join now!{" "}
             <Link href="/Login" className="text-yellow-500 hover:underline">
               Sign Up
             </Link>
